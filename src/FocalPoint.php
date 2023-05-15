@@ -36,7 +36,7 @@ class FocalPoint {
     }
 
     function admin_enqueue_scripts() {
-        $theme_dir = get_template_directory();
+        $theme_dir = realpath(get_template_directory());
         $directory = dirname( dirname(__FILE__) );
         if (str_starts_with($directory, $theme_dir)) {
             // Used within a theme
