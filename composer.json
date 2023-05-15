@@ -1,0 +1,21 @@
+{
+    "name": "koli/wp-focal-point",
+    "description": "Minimal focal point picker for Wordpress",
+    "type": "library",
+    "require": {
+      "php": ">=8.0.0"
+    },
+    "license": "GPLv2",
+    "authors": [
+      {
+        "name": "Oskar Koli",
+        "email": "oskar@koli.io"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "WpFocalPoint\\": "src/"
+        }
+    }
+  }

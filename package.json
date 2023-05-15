@@ -1,0 +1,15 @@
+{
+  "name": "wp-focal-point",
+  "version": "1.0.0",
+  "description": "Minimal focal point picker for Wordpress",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Oskar Koli",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
