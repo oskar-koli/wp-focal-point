@@ -13,7 +13,7 @@ It does *not* concern itself with how to use those metafields when displaying th
 One way of using the metafields is as such:
 ```php
 <?php
-    $focal_point = \WpFocalPoint\get_focal_point($attachment); 
+$focal_point = \WpFocalPoint\get_focal_point($attachment); 
 ?>
-    <img style="object-position: <?= $focal_point["leftPercentage"] ?> <?= $focal_point["topPercentage"] ?>;" />
+<img style="object-position: <?= $focal_point["leftPercentage"] ?> <?= $focal_point["topPercentage"] ?>;" />
 ```
